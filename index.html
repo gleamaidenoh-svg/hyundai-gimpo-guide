@@ -311,11 +311,18 @@
     .opts,.facts{break-inside:avoid;}
   }
   @page{margin:9mm 0;}
+
+  /* language switcher */
+  .langnav{position:absolute;top:14px;right:18px;display:flex;gap:5px;z-index:5;}
+  .langnav a{font-size:11.5px;font-weight:600;color:#D7EFE0;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.20);padding:4px 10px;border-radius:999px;text-decoration:none;}
+  .langnav a.on{background:#fff;color:#0E3D28;border-color:#fff;}
+  @media print{.langnav{display:none;}}
 </style>
 </head>
 <body>
 
 <header class="hero">
+  <div class="langnav"><a class="on" href="/hyundai-gimpo-guide/">한국어</a><a href="/hyundai-gimpo-guide/ja/">日本語</a><a href="/hyundai-gimpo-guide/zh/">简体</a></div>
   <div class="agency">
     <svg class="tag-glyph" width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M2 11.5V4a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.4.6l8.5 8.5a2 2 0 0 1 0 2.8l-7.5 7.5a2 2 0 0 1-2.8 0L2.6 12.9A2 2 0 0 1 2 11.5Z" stroke="#8CE8B0" stroke-width="2"/><circle cx="7" cy="7" r="1.6" fill="#8CE8B0"/></svg>
     Looplab · TikTok Agency
