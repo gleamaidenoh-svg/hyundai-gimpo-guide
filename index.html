@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>현대프리미엄아울렛 김포점 · 틱톡 캠페인 콘텐츠 가이드</title>
+<meta name="description" content="현대프리미엄아울렛 김포점 글로벌 틱톡 캠페인 크리에이터용 콘텐츠 가이드입니다. 촬영 동선, 필수 사항, 업로드 가이드를 확인하세요.">
+<!-- Open Graph / 링크 미리보기 -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Looplab × 현대프리미엄아울렛 김포점">
+<meta property="og:title" content="현대프리미엄아울렛 김포점 · 틱톡 캠페인 콘텐츠 가이드">
+<meta property="og:description" content="촬영 동선, 필수 사항, 업로드 가이드를 한눈에. 크리에이터 여러분을 위한 안내서입니다.">
+<meta property="og:url" content="https://gleamaidenoh-svg.github.io/hyundai-gimpo-guide/">
+<meta property="og:image" content="https://gleamaidenoh-svg.github.io/hyundai-gimpo-guide/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="현대프리미엄아울렛 김포점 · 틱톡 캠페인 콘텐츠 가이드">
+<meta name="twitter:description" content="촬영 동선, 필수 사항, 업로드 가이드를 한눈에. 크리에이터 여러분을 위한 안내서입니다.">
+<meta name="twitter:image" content="https://gleamaidenoh-svg.github.io/hyundai-gimpo-guide/img/og-image.jpg">
+<style>
+  @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+  :root{
+    --paper:#FAF7F1;
+    --card:#FFFFFF;
+    --ink:#16161A;
+    --muted:#6E6E77;
+    --line:#EAE5DA;
+    --brand:#157A48;      /* Hyundai Outlet green */
+    --shop:#E23B4E;       /* 쇼핑집중형 */
+    --life:#2AA06A;       /* 라이프스타일형 */
+    --family:#EE8C11;     /* 가족 나들이형 */
+    --pending:#B8860B;
+    --kr:'Pretendard','Pretendard Variable',-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;
+    --en:'Space Grotesk',var(--kr);
+    --shadow:0 1px 2px rgba(20,20,26,.04),0 10px 30px -12px rgba(20,20,26,.14);
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--kr);line-height:1.6;-webkit-font-smoothing:antialiased;
+    letter-spacing:-.01em;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:0 20px 96px;}
+
+  /* ---------- tag glyph (signature motif) ---------- */
+  .tag-glyph{display:inline-block;vertical-align:-2px;}
+
+  /* ---------- hero ---------- */
+  .hero{
+    position:relative;overflow:hidden;
+    background:linear-gradient(150deg,#0E3D28 0%,#124A31 55%,#1C6E46 100%);
+    color:#fff;border-radius:0 0 28px 28px;
+    padding:56px 26px 40px;margin-bottom:14px;
+  }
+  .hero::after{
+    content:"";position:absolute;right:-70px;top:-70px;width:240px;height:240px;
+    background:radial-gradient(circle,rgba(120,225,155,.42),transparent 68%);
+  }
+  .hero .agency{
+    font-family:var(--en);font-size:12px;letter-spacing:.22em;text-transform:uppercase;
+    color:#8CE8B0;font-weight:600;margin-bottom:18px;display:flex;align-items:center;gap:8px;
+  }
+  .hero h1{
+    font-size:clamp(28px,6.4vw,42px);line-height:1.12;font-weight:800;margin:0 0 8px;
+    letter-spacing:-.03em;
+  }
+  .hero h1 .en{font-family:var(--en);font-weight:700;color:#fff;}
+  .hero .sub{color:#C9C6CF;font-size:15px;max-width:44ch;margin:14px 0 0;}
+  .hero .platform{
+    display:inline-flex;align-items:center;gap:7px;margin-top:22px;
+    background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);
+    padding:7px 13px;border-radius:999px;font-size:13px;color:#EDEBEF;
+    font-family:var(--en);letter-spacing:.02em;
+  }
+
+  /* ---------- section scaffolding ---------- */
+  section{margin-top:44px;scroll-margin-top:20px;}
+  .eyebrow{
+    display:flex;align-items:center;gap:9px;margin-bottom:14px;
+    font-family:var(--en);font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;
+    color:var(--brand);font-weight:600;
+  }
+  .eyebrow .num{color:var(--muted);}
+  .eyebrow .bar{flex:1;height:1px;background:var(--line);}
+  h2{font-size:clamp(21px,4.6vw,27px);font-weight:800;margin:0 0 6px;letter-spacing:-.025em;}
+  .lead{color:var(--muted);font-size:15px;margin:0 0 18px;}
+
+  /* ---------- cards ---------- */
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:20px 22px;box-shadow:var(--shadow);
+  }
+  .grid{display:grid;gap:12px;}
+  @media(min-width:560px){.grid.g2{grid-template-columns:1fr 1fr;}}
+
+  /* quick facts */
+  .facts{display:grid;gap:10px;grid-template-columns:1fr;}
+  @media(min-width:560px){.facts{grid-template-columns:1fr 1fr;}}
+  .fact{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 16px;
+    display:flex;flex-direction:column;gap:3px;
+  }
+  .fact .k{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-family:var(--en);}
+  .fact .v{font-size:15px;font-weight:600;line-height:1.45;}
+  .fact .v b{color:var(--brand);}
+
+  /* callout */
+  .callout{
+    border-left:3px solid var(--brand);background:#fff;border-radius:0 12px 12px 0;
+    padding:13px 16px;margin:14px 0;font-size:14.5px;color:#37373E;
+    box-shadow:var(--shadow);
+  }
+  .callout.warn{border-left-color:var(--pending);}
+  .callout strong{color:var(--ink);}
+
+  /* pending badge */
+  .pending{
+    display:inline-block;font-size:11px;font-weight:600;color:var(--pending);
+    background:rgba(184,134,11,.10);border:1px dashed rgba(184,134,11,.5);
+    padding:1px 8px;border-radius:6px;letter-spacing:.02em;white-space:nowrap;
+  }
+
+  /* compare table */
+  .tbl{width:100%;border-collapse:separate;border-spacing:0;font-size:14px;
+    background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;}
+  .tbl th,.tbl td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);}
+  .tbl thead th{background:#F6F2EB;font-size:12.5px;letter-spacing:.03em;color:#4A4A52;font-weight:700;}
+  .tbl tr:last-child td{border-bottom:none;}
+  .tbl td:first-child,.tbl th:first-child{font-weight:600;color:#43434B;background:#FCFAF6;}
+  .tbl .accent{color:var(--brand);font-weight:700;}
+
+  /* option cards */
+  .opts{display:grid;gap:14px;}
+  @media(min-width:640px){.opts{grid-template-columns:repeat(3,1fr);}}
+  .opt{
+    --opt:var(--brand);
+    background:var(--card);border:1px solid var(--line);border-top:4px solid var(--opt);
+    border-radius:16px;padding:20px;box-shadow:var(--shadow);
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .opt .emoji{font-size:26px;}
+  .opt h3{margin:0;font-size:18px;font-weight:800;color:var(--opt);letter-spacing:-.02em;}
+  .opt .rec{font-size:13.5px;color:var(--muted);}
+  .opt .meta{margin-top:6px;padding-top:10px;border-top:1px solid var(--line);font-size:13px;display:grid;gap:4px;}
+  .opt .meta span{color:#4A4A52;}
+  .opt .meta b{color:var(--ink);}
+  .badge-bus{font-size:11.5px;font-weight:700;padding:2px 9px;border-radius:999px;align-self:flex-start;}
+  .bus-yes{background:rgba(245,52,78,.10);color:var(--brand);}
+  .bus-no{background:#F0EEE8;color:var(--muted);}
+
+  /* requirement rows */
+  .req{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);}
+  .req-row{display:grid;grid-template-columns:auto 1fr;gap:14px;padding:14px 18px;border-bottom:1px solid var(--line);align-items:start;}
+  .req-row:last-child{border-bottom:none;}
+  .req-row .chip{font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;height:fit-content;white-space:nowrap;letter-spacing:.02em;}
+  .chip-must{background:var(--brand);color:#fff;}
+  .chip-no{background:#E23B4E;color:#fff;}
+  .chip-tip{background:#EAF6EF;color:var(--life);}
+  .req-row .t{font-weight:700;font-size:14.5px;margin-bottom:2px;}
+  .req-row .d{font-size:13.5px;color:#54545C;}
+
+  /* how-to blocks */
+  .how{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;box-shadow:var(--shadow);margin-top:12px;}
+  .how h4{margin:0 0 10px;font-size:15.5px;font-weight:800;display:flex;align-items:center;gap:8px;}
+  .how ol,.how ul{margin:0;padding-left:20px;}
+  .how li{margin:5px 0;font-size:14px;color:#3C3C44;}
+  .how li b{color:var(--ink);}
+
+  /* timeline (scenario flow) */
+  .flow{--opt:var(--brand);margin-top:16px;}
+  .flow-head{display:flex;align-items:center;gap:10px;margin-bottom:6px;}
+  .flow-head .emoji{font-size:22px;}
+  .flow-head h3{margin:0;font-size:18px;font-weight:800;color:var(--opt);}
+  .flow .note{font-size:13.5px;color:var(--muted);margin:0 0 14px;}
+  .steps{position:relative;padding-left:26px;}
+  .steps::before{content:"";position:absolute;left:8px;top:6px;bottom:6px;width:2px;background:var(--line);}
+  .step{position:relative;padding:0 0 16px 4px;}
+  .step:last-child{padding-bottom:0;}
+  .step::before{
+    content:"";position:absolute;left:-24px;top:3px;width:14px;height:14px;border-radius:50%;
+    background:var(--card);border:3px solid var(--opt);
+  }
+  .step .scene{font-weight:650;font-size:14.5px;}
+  .step .cap{font-size:13px;color:var(--muted);margin-top:2px;}
+  .step .cap::before{content:"자막 ";font-family:var(--en);font-size:10.5px;letter-spacing:.1em;color:var(--opt);opacity:.85;margin-right:5px;text-transform:uppercase;}
+  .step .floor{font-size:11.5px;color:var(--muted);}
+
+  /* hashtags */
+  .hash{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0;}
+  .hash .h{font-family:var(--en);font-size:13.5px;padding:6px 12px;border-radius:999px;font-weight:500;}
+  .h-must{background:var(--ink);color:#fff;}
+  .h-free{background:#fff;border:1px dashed var(--line);color:var(--muted);}
+  .langtbl td .t{font-family:var(--en);}
+
+  /* dos / donts */
+  .dd{display:grid;gap:12px;}
+  @media(min-width:600px){.dd{grid-template-columns:1fr 1fr;}}
+  .dd-col{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;box-shadow:var(--shadow);}
+  .dd-col h4{margin:0 0 12px;font-size:15px;display:flex;align-items:center;gap:8px;}
+  .dd-col.do h4{color:var(--life);}
+  .dd-col.dont h4{color:var(--brand);}
+  .dd-col ul{list-style:none;margin:0;padding:0;}
+  .dd-col li{font-size:13.5px;padding:7px 0 7px 24px;position:relative;border-bottom:1px solid var(--line);color:#3C3C44;}
+  .dd-col li:last-child{border-bottom:none;}
+  .dd-col.do li::before{content:"✓";position:absolute;left:0;color:var(--life);font-weight:800;}
+  .dd-col.dont li::before{content:"✕";position:absolute;left:0;color:var(--brand);font-weight:800;}
+
+  /* footer */
+  footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:13px;}
+  footer a{color:var(--brand);text-decoration:none;}
+  footer .links{display:flex;flex-direction:column;gap:4px;margin:10px 0 16px;}
+  footer .copy{font-size:11.5px;color:#9A9AA2;line-height:1.7;}
+
+  /* hot tips */
+  .tips{display:grid;gap:10px;}
+  @media(min-width:560px){.tips{grid-template-columns:1fr 1fr;}}
+  .tip{display:flex;gap:12px;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--brand);border-radius:12px;padding:14px 16px;box-shadow:var(--shadow);break-inside:avoid;}
+  .tip .tip-ic{font-size:20px;line-height:1.25;}
+  .tip b{font-size:14.5px;}
+  .tip .td{font-size:12.5px;color:var(--muted);margin-top:2px;line-height:1.5;}
+
+  /* floor map (WEST/EAST/TOWER) */
+  .maptitle{font-weight:800;font-size:14.5px;margin:2px 0 8px;display:flex;align-items:center;gap:7px;}
+  .floormap{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:2px 0 10px;}
+  .bld{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);break-inside:avoid;}
+  .bld .bld-h{background:#F6F2EB;text-align:center;font-family:var(--en);font-weight:700;font-size:12.5px;letter-spacing:.06em;padding:8px;color:#43434B;border-bottom:1px solid var(--line);}
+  .bld .flr{display:grid;grid-template-columns:26px 1fr;gap:7px;padding:8px 10px;border-bottom:1px solid var(--line);font-size:12px;align-items:baseline;}
+  .bld .flr:last-child{border-bottom:none;}
+  .bld .flr .lv{font-family:var(--en);font-weight:700;color:var(--brand);font-size:11.5px;}
+  .bld .flr .br{color:#2E2E34;line-height:1.5;font-weight:600;}
+  .bld .flr .fac{color:#8A8A93;font-weight:500;font-size:11px;}
+  .bld .flr .dash{color:#C6C6CE;}
+  .mapnote{font-size:11.5px;color:var(--muted);margin:0 0 14px;}
+
+  /* completion timeline */
+  .tl{margin:14px 0 4px;}
+  .tl-bar{display:flex;height:36px;border-radius:9px;overflow:hidden;border:1px solid var(--line);}
+  .tl-seg{display:flex;align-items:center;justify-content:center;padding:0 8px;text-align:center;font-size:11.5px;font-weight:700;color:#fff;line-height:1.2;}
+  .tl-labels{display:flex;justify-content:space-between;font-size:10.5px;color:var(--muted);margin-top:5px;font-family:var(--en);letter-spacing:.04em;}
+
+  /* phone mockup */
+  .phones{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin:6px 0 2px;}
+  .phone{width:186px;background:#0F0F12;border-radius:24px;padding:8px;box-shadow:var(--shadow);}
+  .phone .scr{position:relative;aspect-ratio:9/16;border-radius:17px;overflow:hidden;background:linear-gradient(165deg,#3A4A55,#1B2228);display:flex;flex-direction:column;justify-content:flex-end;}
+  .phone .hook{position:absolute;top:12px;left:10px;right:10px;color:#fff;font-size:12.5px;font-weight:800;line-height:1.3;text-shadow:0 1px 6px rgba(0,0,0,.5);}
+  .phone .ov{padding:10px 10px 12px;background:linear-gradient(transparent,rgba(0,0,0,.55));}
+  .phone .cap{color:#fff;font-size:10.5px;line-height:1.45;margin-bottom:5px;}
+  .phone .tags{display:flex;flex-wrap:wrap;gap:3px;}
+  .phone .tags span{color:#7FD8FF;font-size:10px;font-weight:600;}
+  .phone .cta{position:absolute;top:50%;right:9px;transform:translateY(-50%);display:flex;flex-direction:column;gap:11px;align-items:center;color:#fff;font-size:9px;}
+  .phone .cta i{font-style:normal;font-size:17px;}
+  .phone-cap{text-align:center;font-size:11.5px;color:var(--muted);margin-top:7px;}
+  .mockimg{width:210px;max-width:46%;height:auto;border-radius:16px;border:1px solid var(--line);box-shadow:var(--shadow);}
+
+  /* image placeholder */
+  .ph{border:2px dashed #CDBBA6;border-radius:14px;background:#FBF8F2;padding:20px 16px;text-align:center;margin:12px 0;break-inside:avoid;}
+  .ph .ic{font-size:24px;opacity:.55;display:block;margin-bottom:6px;}
+  .ph b{display:block;color:#6E6E77;font-size:13.5px;margin-bottom:2px;}
+  .ph .src{font-size:11px;color:#A79A85;margin-top:5px;font-family:var(--en);letter-spacing:.03em;}
+
+  /* split placeholder (2 halves in one box) */
+  .ph-split{display:grid;grid-template-columns:1fr 1fr;border:2px dashed #CDBBA6;border-radius:14px;overflow:hidden;background:#FBF8F2;margin:12px 0;break-inside:avoid;}
+  .ph-split .h{padding:18px 12px;text-align:center;}
+  .ph-split .h + .h{border-left:2px dashed #CDBBA6;}
+  .ph-split .ic{font-size:22px;opacity:.55;display:block;margin-bottom:5px;}
+  .ph-split b{display:block;color:#6E6E77;font-size:12.5px;margin-bottom:2px;line-height:1.4;}
+  .ph-split .src{font-size:10.5px;color:#A79A85;margin-top:4px;font-family:var(--en);letter-spacing:.03em;}
+
+  /* flow 2-column (example image + steps) */
+  .flow-2col{display:grid;gap:16px;align-items:start;margin-top:4px;}
+  @media(min-width:640px){.flow-2col{grid-template-columns:minmax(0,232px) 1fr;}}
+  .ex-img{border:2px dashed #CDBBA6;border-radius:16px;background:#FBF8F2;aspect-ratio:9/16;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:18px 14px;break-inside:avoid;}
+  .ex-img .ic{font-size:30px;opacity:.5;margin-bottom:8px;}
+  .ex-img b{color:#6E6E77;font-size:13.5px;margin-bottom:3px;}
+  .ex-img .sub{font-size:11.5px;color:#8A8A93;line-height:1.5;}
+  .ex-img .src{font-size:10.5px;color:#A79A85;margin-top:8px;font-family:var(--en);letter-spacing:.04em;}
+  /* filled example image */
+  .ex-img.filled{border-style:solid;border-color:var(--line);background:var(--card);padding:0;overflow:hidden;position:relative;}
+  .ex-img.filled img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+  .ex-img .tag{position:absolute;top:8px;left:8px;z-index:1;background:rgba(0,0,0,.55);color:#fff;font-size:11px;font-weight:700;padding:3px 9px;border-radius:999px;}
+  /* image half inside split box */
+  .ph-split .half-img{padding:0;overflow:hidden;position:relative;min-height:160px;}
+  .ph-split .half-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;}
+  /* generic guide image */
+  .gimg{margin:14px 0 0;border-radius:14px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);background:var(--card);break-inside:avoid;}
+  .gimg img{display:block;width:100%;height:auto;}
+  .gimg figcaption{padding:8px 12px;font-size:12px;color:var(--muted);text-align:center;}
+
+  /* motion */
+  .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease;}
+  .reveal.in{opacity:1;transform:none;}
+  @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}html{scroll-behavior:auto;}}
+
+  @media print{
+    body{background:#fff;}
+    .wrap{padding-left:30px;padding-right:30px;padding-bottom:24px;}
+    .hero{background:#0E3D28 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;border-radius:0;}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .reveal{opacity:1 !important;transform:none !important;}
+    section{margin-top:26px;}
+    /* keep headings attached to what follows */
+    h2,.eyebrow,.flow-head,.lead{break-after:avoid;page-break-after:avoid;}
+    /* keep small blocks from splitting across pages */
+    .fact,.callout,.opt,.tbl,.how,.req-row,.step,.dd-col,.card{break-inside:avoid;page-break-inside:avoid;}
+    .opts,.facts{break-inside:avoid;}
+  }
+  @page{margin:9mm 0;}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="agency">
+    <svg class="tag-glyph" width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M2 11.5V4a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.4.6l8.5 8.5a2 2 0 0 1 0 2.8l-7.5 7.5a2 2 0 0 1-2.8 0L2.6 12.9A2 2 0 0 1 2 11.5Z" stroke="#8CE8B0" stroke-width="2"/><circle cx="7" cy="7" r="1.6" fill="#8CE8B0"/></svg>
+    Looplab · TikTok Agency
+  </div>
+  <h1>현대프리미엄아울렛 김포점<br><span class="en">Global TikTok Campaign</span> 콘텐츠 가이드</h1>
+  <p class="sub">안녕하세요 크리에이터 여러분! 김포점을 직접 방문해서 콘텐츠를 만들어 주세요. 아래 가이드를 참고해 자유롭게 촬영하시면 됩니다.</p>
+  <span class="platform">🎬 실제 방문객처럼 · 광고 문구 읽듯 딱딱하게 X</span>
+</header>
+
+<div class="wrap">
+
+  <!-- AT A GLANCE -->
+  <section class="reveal">
+    <div class="eyebrow"><span class="tag-glyph">🏷️</span> At a glance <span class="bar"></span></div>
+    <h2>한눈에 보기</h2>
+    <div class="facts">
+      <div class="fact"><span class="k">Length</span><span class="v"><b>30초 이내</b> 확산형 또는 <b>1분 이내</b> 정보형 중 선택</span></div>
+      <div class="fact"><span class="k">Upload</span><span class="v">8/5(수) ~ 8/11(화) <span class="pending">변경 가능</span></span></div>
+      <div class="fact"><span class="k">Reward</span><span class="v">쇼핑지원금(H.Point) <b>10만원</b> + 원고료</span></div>
+      <div class="fact"><span class="k">Tone</span><span class="v">브랜드·매장 노출 OK, 실제 방문객처럼 자연스럽게</span></div>
+    </div>
+    <div class="callout">💡 <strong>완주율이 핵심.</strong> 짧게 임팩트 있게면 30초, 여러 장면·정보를 담고 싶으면 1분. 중요한 건 <strong>끝까지 보게 만드는 것</strong>이에요.</div>
+  </section>
+
+  <!-- 30 vs 60 -->
+  <section class="reveal">
+    <div class="eyebrow"><span class="num">⏱</span> 30s vs 60s <span class="bar"></span></div>
+    <h2>30초 vs 1분, 뭐가 다를까</h2>
+    <p class="lead">본인 옵션의 <b>필수 동선</b>은 두 분량 모두 반드시 담아주세요. 차이는 "얼마나 자세히 보여주느냐"예요.</p>
+    <table class="tbl">
+      <thead><tr><th></th><th>30초 이내 · 확산형</th><th>1분 이내 · 정보형</th></tr></thead>
+      <tbody>
+        <tr><td>필수 동선</td><td>모두 포함, <span class="accent">한 장면당 1~3초</span> 빠른 컷</td><td>모두 포함, 여유 있게 OK</td></tr>
+        <tr><td>스타일</td><td>임팩트 후킹 + 빠른 컷</td><td>코스 소개 · 정보 전달형</td></tr>
+      </tbody>
+    </table>
+    <div class="callout warn">※ 30초든 1분이든 <strong>필수 동선을 빼먹으면 안 돼요.</strong> 30초는 "빨리 보여주는 것"이지 "일부만 보여주는 것"이 아니에요.</div>
+    <div class="callout">💡 <strong>영상·캡션 분업.</strong> 말로 하면 늘어지는 상세 정보(환급 매장 리스트, 자세한 경로)는 캡션으로 빼고, 영상엔 "행동하는 장면"만 빠르게.</div>
+  </section>
+
+  <!-- OPTIONS -->
+  <section class="reveal">
+    <div class="eyebrow"><span class="num">01</span> Choose your option <span class="bar"></span></div>
+    <h2>나에게 맞는 옵션 선택</h2>
+    <p class="lead">3가지 옵션 중 본인 상황·콘셉트에 맞는 것 하나를 골라주세요.</p>
+    <div class="opts">
+      <div class="opt" style="--opt:var(--shop)">
+        <div class="emoji">🛍</div>
+        <h3>쇼핑집중형</h3>
+        <div class="rec">쇼핑·득템·할인 정보가 메인인 분</div>
+        <div class="meta">
+          <span>핵심 · <b>지정 브랜드 + 가격 비교</b></span>
+          <span class="badge-bus bus-yes">셔틀·택시 권장</span>
+        </div>
+      </div>
+      <div class="opt" style="--opt:var(--life)">
+        <div class="emoji">🌿</div>
+        <h3>라이프스타일형</h3>
+        <div class="rec">공간·서비스·분위기를 여유롭게 보여주는 분</div>
+        <div class="meta">
+          <span>핵심 · <b>시설·서비스 전반 소개</b></span>
+          <span class="badge-bus bus-yes">셔틀·택시 권장</span>
+        </div>
+      </div>
+      <div class="opt" style="--opt:var(--family)">
+        <div class="emoji">👨‍👩‍👧</div>
+        <h3>가족 나들이형</h3>
+        <div class="rec">아이와 함께 방문하는 가족</div>
+        <div class="meta">
+          <span>핵심 · <b>키즈 시설·가족 편의</b></span>
+          <span class="badge-bus bus-no">셔틀·택시·자차 OK</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMMON REQUIREMENTS -->
+  <section class="reveal">
+    <div class="eyebrow"><span class="num">02</span> Required for all <span class="bar"></span></div>
+    <h2>콘텐츠 제작 시 필수 사항 <span style="font-size:15px;font-weight:600;color:var(--muted)">(공통)</span></h2>
+    <p class="lead">옵션과 관계없이 아래는 모든 영상에 공통으로 지켜주세요.</p>
+    <div class="req">
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">교통수단 소개 <span style="font-weight:500;color:var(--muted);font-size:12.5px">· 셔틀 또는 택시 권장</span></div><div class="d"><b>①나이스택스프리 무료 셔틀</b> 또는 <b>②택시 이벤트(2만원 상품권)</b> 중 하나를 이용해 방문하고, 그 장면을 넣어주세요. 둘 다 짧게 소개해주면 더 좋아요. (아래 참고)</div></div></div>
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">H.Point 사용</div><div class="d">의류·잡화·명품·식당·카페 등 <b>대부분 매장에서 자유롭게 결제</b> 가능. 결제하는 장면을 넣어주세요. (일부 사용 불가 매장은 아래 참고)</div></div></div>
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">쇼핑 (매장·공간 방문)</div><div class="d">구매는 자유(강제 아님), 단 <b>총 3곳 이상 방문·소개</b> 필수 — <b>지정 브랜드 중 2곳 + 자유 1곳</b> (지정 브랜드는 아래 쇼핑집중형 표 참고). 가격·할인 정보도 함께!</div></div></div>
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">식당·카페(F&amp;B) 이용</div><div class="d">1곳 이상 이용해 <b>'하루 즐기기'</b> 장면을 담아주세요. (3F 밀리스트 추천 — 서울 3대 베이글·한강뷰)</div></div></div>
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">세금환급(택스리펀)</div><div class="d"><b>1F 인포데스크 좌측 텍스리펀 셀프 기기</b>에서 진행하는 장면 또는 방법 소개를 넣어주세요. (아래 참고)</div></div></div>
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">짐 보관소 안내</div><div class="d">짐 맡기는 장면 또는 안내를 넣어주세요.</div></div></div>
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">위치 표기</div><div class="d">캡션·화면에 장소(현대프리미엄아울렛 김포점)를 명확히 표기해주세요.</div></div></div>
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">해시태그</div><div class="d">필수 3개 + 자유 2개 (아래 업로드 가이드 참고)</div></div></div>
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">음원</div><div class="d">TikTok <b>상업적 사운드</b>만 사용 (오리지널 사운드 X)</div></div></div>
+      <div class="req-row"><span class="chip chip-no">금지</span><div><div class="t">다른 아울렛 비교</div><div class="d">김포점만 소개, 타 아울렛과 비교하지 마세요.</div></div></div>
+    </div>
+
+    <!-- how-to -->
+    <div class="how">
+      <h4>💳 H.Point 사용법</h4>
+      <ul>
+        <li>❗ <b style="color:var(--shop)">주의: H.Point 적립에는 <u>방문 전 최소 영업일 기준 3일</u>이 필요해요. 방문 일정에 맞춰 포인트를 받으시려면, 해당 정보(H.Point 가입 ID·이름)를 반드시 미리 전달해 주세요!</b></li>
+        <li>H.Point 앱에 로그인하면 마이페이지에서 적립 포인트를 확인할 수 있어요.</li>
+        <li>결제할 때 직원에게 <b>"H.Point 결제 해주세요"</b>라고 말씀하시면 됩니다.</li>
+        <li><b>의류·잡화·명품·식당·카페 등 대부분의 매장</b>에서 자유롭게 쓸 수 있어요. 식당·카페뿐 아니라 쇼핑 결제에도 활용하세요.</li>
+        <li>⚠️ 아래 <b>8개 매장은 H.Point 적립·사용이 안 돼요</b> (일반 결제 장면은 넣어도 괜찮아요): <b>아웃백, 빕스, GS25편의점, 올리브영, 수선실, 세차장, 블루보틀, 포토이즘</b></li>
+        <li>포인트는 캠페인 기간 내 소멸돼요. 미리 계획해서 다 쓰고 오세요. <b>발급 후 사용기한 연장은 불가</b>합니다.</li>
+        <li>💡 H.Point는 캠페인 <b>활동지원금</b>이에요. 다만 <b>"무료로 받았다 / 공짜 10만 포인트"</b> 같은 표현은 시청자에게 혼선을 줄 수 있으니 피해주세요. 실제 방문객처럼 자연스럽게 쇼핑을 즐기는 톤이면 충분해요!</li>
+      </ul>
+    </div>
+    <div class="how">
+      <h4>💸 세금환급(택스리펀) 받는 방법</h4>
+      <ol>
+        <li>매장에서 <b>1만5천원 이상 구매</b> (여권 꼭 챙기세요)</li>
+        <li>구매 후 <b>1F 인포데스크(안내·서비스데스크)</b>로 이동</li>
+        <li>데스크 <b>좌측에 있는 텍스리펀 셀프 기기</b>에서 직접 진행 (직원이 해주는 게 아니라 <b>셀프</b>예요!)</li>
+        <li>영수증 + 여권으로 그 자리에서 바로 환급!</li>
+      </ol>
+      <div class="callout warn" style="margin-bottom:0">⚠️ "전관 8% 환급"처럼 과장 금지. <strong>"매장별로 환급 가능"</strong>이라고 정확히 표현해주세요.</div>
+    </div>
+    <div class="how">
+      <h4>🧳 짐 보관소 안내</h4>
+      <ul>
+        <li>무인 물품보관함은 <b>EAST 1F</b>(멀버리 매장 뒷편)와 <b>TOWER ZONE 1F</b>(매직에디션 지나 엘리베이터 홀) 2곳에 있어요.</li>
+        <li>캐리어는 <b>1F 안내데스크(WEST)</b>에서 직원에게 맡길 수도 있어요.</li>
+        <li>도착할 때 맡기거나, 쇼핑하다 짐이 늘면 추가로 맡겨도 좋아요.</li>
+        <li>쇼핑백을 보관소에 넣는 장면은 "짐 걱정 없이 논다"는 느낌을 주기 좋아요.</li>
+      </ul>
+    </div>
+    <div class="how">
+      <h4>🚕 접근성 &amp; 교통 <span style="font-weight:500;color:var(--muted);font-size:12.5px">· 이동은 자유, 둘 다 짧게 소개</span></h4>
+      <p style="margin:0 0 10px;font-size:14px;color:#3C3C44;">가능하면 <b>①무료 셔틀</b> 또는 <b>②택시 이벤트</b>로 방문해 그 장면을 담아주세요. 둘 다 짧게 소개하면 더 좋아요. (가족 나들이형은 자차도 OK — 아래 주차 안내 참고)</p>
+      <div style="font-weight:700;font-size:14px;margin:2px 0 4px;">🚌 나이스택스프리 무료 셔틀 <span style="font-weight:500;color:var(--muted);font-size:12px">· 옵션</span></div>
+      <ul style="margin:0 0 12px;">
+        <li>명동·신촌·홍대·여의도 등에서 김포점까지 <b>무료</b>로 이동할 수 있어요.</li>
+        <li>버스를 타지 않더라도 "차 없이 무료로 편하게 올 수 있다" 정도로 가볍게 한 컷 소개.</li>
+        <li>🚌 <b>운행 노선·시간표</b>는 나이스택스프리 공식 페이지에서 확인하세요: <a href="https://nicetaxfree.co.kr/bus/bus_kr" target="_blank" rel="noopener" style="color:var(--brand);font-weight:600;">nicetaxfree.co.kr/bus/bus_kr</a></li>
+      </ul>
+      <div class="callout" style="border-left-color:var(--brand);margin:0 0 12px;">
+        <b>🚕 택시 이벤트 — "공항에서 15분, 사실상 만원에 도착"</b><br>
+        김포 인근·공항에서 <b>택시</b>로 방문 → <b>1F 인포데스크(안내데스크)에 택시 영수증 제시</b> → <b>2만원 현대백화점 상품권</b> 증정 (프로모션 진행 중).<br>
+        <b>택시비 금액과 관계없이 영수증 1장당 2만원 상품권</b>이에요. (H.Point가 아닌 현대백화점 상품권으로 지급)<br>
+        예) 명동에서 택시 약 3만원 → 2만원 상품권 → <b>실부담 약 1만원</b>! 공항 in&amp;out 여행자에게 최고의 후킹 포인트예요.
+      </div>
+      <div class="ph-split">
+        <div class="half-img"><img src="img/shuttle.jpg" alt="나이스택스프리 무료 셔틀버스" loading="lazy"></div>
+        <div class="half-img"><img src="img/taxi.png" alt="한국 택시" loading="lazy"></div>
+      </div>
+      <div style="font-weight:700;font-size:14px;margin:2px 0 4px;">🅿️ 주차 (자차 방문 시)</div>
+      <ul style="margin:0;">
+        <li><b>1만원 이상</b> 구매 시 <b>3시간 무료</b> / <b>10만원 이상</b> 구매 시 <b>5시간 무료</b></li>
+        <li>구매금액과 무관하게 <b>5시간 초과 시 10분당 1,000원</b> 부과</li>
+        <li><b>야외(옥외) 주차장</b> 이용 시 무료</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FLOOR GUIDE -->
+  <section class="reveal">
+    <div class="eyebrow"><span class="tag-glyph">🗺</span> Floor guide <span class="bar"></span></div>
+    <h2>건물·층 한눈에 보기</h2>
+    <p class="lead">매장이 <b>WEST · EAST · 타워존 세 건물</b>에 나뉘어 있고 건물 간 거리가 있어요. <b>같은 건물끼리 묶어</b> 동선을 짜면 효율적이에요.</p>
+    <div class="floormap">
+      <div class="bld">
+        <div class="bld-h">WEST</div>
+        <div class="flr"><span class="lv">3F</span><span class="br">MLB</span></div>
+        <div class="flr"><span class="lv">2F</span><span class="br">뉴발란스</span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">폴로 랄프로렌<br><span class="fac">안내데스크 · 텍스리펀 · 캐리어 위탁</span></span></div>
+      </div>
+      <div class="bld">
+        <div class="bld-h">EAST</div>
+        <div class="flr"><span class="lv">3F</span><span class="br"><span class="dash">—</span></span></div>
+        <div class="flr"><span class="lv">2F</span><span class="br">호카 (HOKA)</span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">버버리<br><span class="fac">물품보관함(멀버리 뒷편)</span></span></div>
+      </div>
+      <div class="bld">
+        <div class="bld-h">TOWER ZONE</div>
+        <div class="flr"><span class="lv">3F</span><span class="br">노스페이스 · 아크테릭스</span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">키즈카페(쁘띠플래닛)<br><span class="fac">물품보관함(엘리베이터 홀)</span></span></div>
+      </div>
+    </div>
+    <p class="mapnote">※ 밀리스트(F&amp;B) · 레고 · 수유실은 <b>3F</b> (정확한 건물명은 현대 확인 예정).</p>
+  </section>
+
+  <!-- ROUTES -->
+  <section class="reveal">
+    <div class="eyebrow"><span class="num">03</span> Shooting route <span class="bar"></span></div>
+    <h2>옵션별 촬영 동선</h2>
+    <p class="lead"><span class="pending">동선 인포그래픽 추후 제작</span> · 아래 순서는 참고용이에요. 자연스러운 흐름 안에서 자유롭게 바꿔도 됩니다.</p>
+
+    <!-- 쇼핑집중형 -->
+    <div class="flow" style="--opt:var(--shop)">
+      <div class="flow-head"><span class="emoji">🛍</span><h3>쇼핑집중형</h3></div>
+      <p class="note">지정 브랜드 쇼핑 + 할인·가격 정보가 메인. 아래 <b>지정 브랜드 중 2곳 이상 + 자유 매장 1곳</b>, <b>총 3곳 이상</b> 방문해주세요. 브랜드마다 아래 멘트를 자막으로 살려주면 좋아요! <b style="color:var(--shop)">(건물·층은 바로 위 '건물·층 한눈에 보기' 참고)</b></p>
+      <table class="tbl" style="margin:4px 0 14px;">
+        <thead><tr><th>지정 브랜드</th><th>층</th><th>멘트·포인트 (자막 활용)</th></tr></thead>
+        <tbody>
+          <tr><td class="accent">폴로 랄프로렌</td><td>WEST 1F</td><td>"폴로 재고, 여기가 제일 많대요!"</td></tr>
+          <tr><td class="accent">뉴발란스</td><td>WEST 2F</td><td>"국내에서 제일 큰 규모의 매장이래요!"</td></tr>
+          <tr><td class="accent">MLB</td><td>WEST 3F</td><td>"전 세계적으로 인기 많은 그 브랜드"</td></tr>
+          <tr><td class="accent">버버리</td><td>EAST 1F</td><td>"명품도 아울렛 가격으로"</td></tr>
+          <tr><td class="accent">호카</td><td>EAST 2F</td><td>"러닝화 인기 브랜드"</td></tr>
+          <tr><td class="accent">노스페이스</td><td>타워존 3F</td><td>"한국 한정판(화이트라벨)이래요"</td></tr>
+          <tr><td class="accent">아크테릭스</td><td>타워존 3F</td><td>"요즘 제일 핫한 브랜드"</td></tr>
+        </tbody>
+      </table>
+      <div class="flow-2col">
+        <div class="ex-img filled"><img src="img/ex-shopping.png" alt="쇼핑집중형 콘텐츠 예시" loading="lazy"></div>
+      <div class="steps">
+        <div class="step"><div class="scene">이동 — 무료 셔틀 또는 택시 이벤트 소개</div><div class="cap">무료 셔틀 or 택시로 편하게 도착!</div></div>
+        <div class="step"><div class="scene">아울렛 도착</div><div class="cap">김포현대아울렛 도착!</div></div>
+        <div class="step"><div class="scene">쇼핑 시작</div><div class="cap">쇼핑 시작해볼게요</div></div>
+        <div class="step"><div class="scene">짐 보관소에 짐 넣기 (쇼핑백 넣는 장면)</div><div class="cap">짐 맡기고 홀가분하게</div></div>
+        <div class="step"><div class="scene">지정 브랜드 중 2곳 이상 방문 — <b>H.Point는 여기 쇼핑 결제에도 OK!</b> <span class="floor">· 위 표 참고</span></div><div class="cap">옷·잡화·명품도 H.Point로 결제</div></div>
+        <div class="step"><div class="scene">자유 매장 1곳 방문 (원하는 브랜드)</div><div class="cap">이것도 우리나라보다 싸요</div></div>
+        <div class="step"><div class="scene">할인 정보 보여주기 (본국 가격 비교 포함 가능)</div><div class="cap">본국보다 훨씬 저렴해요</div></div>
+        <div class="step"><div class="scene">카페·식당 이용 (H.Point 결제) <span class="floor">· 밀리스트 3F 추천</span></div><div class="cap">서울 3대 베이글에 한강뷰까지</div></div>
+        <div class="step"><div class="scene">1층 중앙 수로에서 휴식·즐기기</div><div class="cap">450m 수로, 한국 아울렛 중 여기만!</div></div>
+        <div class="step"><div class="scene">1F 인포데스크 좌측 텍스리펀 셀프 기기에서 환급</div><div class="cap">셀프로 환급까지 완료</div></div>
+      </div>
+      </div>
+    </div>
+
+    <!-- 라이프스타일형 -->
+    <div class="flow" style="--opt:var(--life)">
+      <div class="flow-head"><span class="emoji">🌿</span><h3>라이프스타일형</h3></div>
+      <p class="note">매장 쇼핑보다 아울렛의 <b>공간·서비스·분위기</b>를 여유롭게 소개하는 버전. 최근 리뉴얼 오픈한 1층 중앙 수로가 핵심 볼거리예요.</p>
+      <div class="flow-2col">
+        <div class="ex-img filled"><img src="img/ex-lifestyle.png" alt="라이프스타일형 콘텐츠 예시" loading="lazy"></div>
+      <div class="steps">
+        <div class="step"><div class="scene">이동 — 무료 셔틀 또는 택시 이벤트 소개</div><div class="cap">무료 셔틀 or 택시 이벤트로 편하게!</div></div>
+        <div class="step"><div class="scene">아울렛 도착</div><div class="cap">오늘은 여유롭게 둘러볼게요</div></div>
+        <div class="step"><div class="scene">짐 보관소 이용 방법 소개</div><div class="cap">짐은 여기 맡기면 돼요</div></div>
+        <div class="step"><div class="scene">여유롭게 돌아다니며 어떤 서비스·공간이 있는지 소개 (핵심)</div><div class="cap">이런 것도 있어요</div></div>
+        <div class="step"><div class="scene">입점 브랜드 소개 (자막으로라도)</div><div class="cap">폴로·노스페이스·뉴발란스·버버리·아크테릭스·호카·MLB 다 있어요</div></div>
+        <div class="step"><div class="scene">카페·식당 이용 (H.Point 결제) <span class="floor">· 밀리스트 3F 추천</span></div><div class="cap">한강뷰 카페에서 한 컷</div></div>
+        <div class="step"><div class="scene">1층 중앙 수로에서 휴식·즐기기 (리뉴얼 오픈)</div><div class="cap">450m 수로, 한국 아울렛 중 유일</div></div>
+        <div class="step"><div class="scene">1F 인포데스크 좌측 텍스리펀 셀프 기기에서 환급</div><div class="cap">환급도 셀프로 간단히</div></div>
+      </div>
+      </div>
+    </div>
+
+    <!-- 가족 나들이형 -->
+    <div class="flow" style="--opt:var(--family)">
+      <div class="flow-head"><span class="emoji">👨‍👩‍👧</span><h3>가족 나들이형</h3></div>
+      <p class="note"><b>교통은 자유예요.</b> 아이와 함께라면 자차가 편하고, 구매 시 주차 혜택도 있어요. 자차면 주차 정보를, 셔틀·택시 이벤트는 무엇을 이용하든 간단히 소개만 해주면 됩니다(위 접근성·교통 안내 참고). 키즈존은 <b>타워존 1F 쁘띠플래닛</b>에 모여 있어요.</p>
+      <div class="flow-2col">
+        <div class="ex-img filled"><img src="img/ex-family.png" alt="가족 나들이형 콘텐츠 예시" loading="lazy"></div>
+      <div class="steps">
+        <div class="step"><div class="scene">이동 — 자차면 주차 혜택 안내 / 셔틀·택시 이벤트는 간단히 소개</div><div class="cap">주차 혜택도 챙기고!</div></div>
+        <div class="step"><div class="scene">아울렛 도착</div><div class="cap">아이랑 하루 나들이!</div></div>
+        <div class="step"><div class="scene">유모차 대여</div><div class="cap">유모차 없어도 걱정 없어요</div></div>
+        <div class="step"><div class="scene">짐 보관소 소개 및 이용</div><div class="cap">짐은 여기 맡기고</div></div>
+        <div class="step"><div class="scene">키즈존 체험 — 타이거릴리 키즈카페 <span class="floor">· 타워존 1F 쁘띠플래닛</span></div><div class="cap">아이를 위한 층이 통째로</div></div>
+        <div class="step"><div class="scene">레고 등 아동 매장 <span class="floor">· 3F</span></div><div class="cap">레고 매장에서 안 가려고 함</div></div>
+        <div class="step"><div class="scene">3층 수유실 등 편의시설 안내 <span class="floor">· 3F</span></div><div class="cap">수유실도 잘 돼 있어요</div></div>
+        <div class="step"><div class="scene">1층 중앙 수로에서 휴식·즐기기</div><div class="cap">450m 수로, 한국 아울렛 중 여기만!</div></div>
+        <div class="step"><div class="scene">카페·식당 이용 (H.Point 결제) <span class="floor">· 밀리스트 3F</span></div><div class="cap">아이 노는 동안 커피 타임</div></div>
+        <div class="step"><div class="scene">1F 인포데스크 좌측 텍스리펀 셀프 기기에서 환급</div><div class="cap">환급까지 챙기고 마무리</div></div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPLOAD -->
+  <section class="reveal">
+    <div class="eyebrow"><span class="num">04</span> Upload guide <span class="bar"></span></div>
+    <h2>업로드 가이드</h2>
+
+    <div class="card" style="margin-bottom:12px">
+      <h4 style="margin:0 0 10px;font-size:15.5px">✍️ 캡션</h4>
+      <ul style="margin:0;padding-left:20px;font-size:14px;color:#3C3C44;">
+        <li style="margin:5px 0">최소 <b>50자 이상</b>, 실제 방문 후기처럼 자연스럽게 (예시 그대로 복사 금지)</li>
+        <li style="margin:5px 0">"좋아요·저장해주세요!" 처럼 캡션에서 직접 말로 부탁</li>
+        <li style="margin:5px 0">끝에 정보 카드: <b>장소명(위치 표기 필수)</b> / 가는 방법 / 주차 여부<br>
+          <span style="color:var(--muted)">예: 📍현대프리미엄아울렛 김포점 / 셔틀·자차 이용 가능 / 주차 가능</span></li>
+      </ul>
+      <div class="phones">
+        <img class="mockimg" src="img/mockup-price.png" alt="가격 메리트 후킹 예시" loading="lazy">
+        <img class="mockimg" src="img/mockup-taxi.png" alt="택시 이벤트 후킹 예시" loading="lazy">
+      </div>
+      <div class="phone-cap">💡 후킹(첫 3초) + 자연스러운 후기 캡션 + 필수 해시태그 예시 (그대로 복사 금지, 참고용)</div>
+    </div>
+
+    <div class="card" style="margin-bottom:12px">
+      <h4 style="margin:0 0 6px;font-size:15.5px">#️⃣ 해시태그 &amp; 계정 태그</h4>
+      <p style="font-size:13.5px;color:var(--muted);margin:0 0 10px">계정 멘션: <span class="pending">현대 공식 계정 핸들 확정 필요</span></p>
+      <div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--brand);font-family:var(--en);font-weight:600;margin-bottom:6px">필수 3개</div>
+      <div class="hash">
+        <span class="h h-must">#HyundaiPremiumOutletGimpo</span>
+        <span class="h h-must">#한국여행 · 자국어</span>
+        <span class="h h-must">#한국쇼핑 · 자국어</span>
+      </div>
+      <div style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-family:var(--en);font-weight:600;margin:10px 0 6px">자유 2개</div>
+      <div class="hash">
+        <span class="h h-free">본인 콘텐츠·언어권에 맞게 자유</span>
+        <span class="h h-free">+1</span>
+      </div>
+      <table class="tbl langtbl" style="margin-top:14px">
+        <thead><tr><th>언어권</th><th>#한국여행</th><th>#한국쇼핑</th></tr></thead>
+        <tbody>
+          <tr><td>중국어권</td><td><span class="t">#韓國旅行</span></td><td><span class="t">#韓國購物</span></td></tr>
+          <tr><td>일본어권</td><td><span class="t">#韓国旅行</span></td><td><span class="t">#韓国ショッピング</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <h4 style="margin:0 0 10px;font-size:15.5px">🎵 음원</h4>
+      <ul style="margin:0;padding-left:20px;font-size:14px;color:#3C3C44;">
+        <li style="margin:5px 0">TikTok <b>'상업적 사운드'</b> 음원만 사용</li>
+        <li style="margin:5px 0">오리지널 사운드는 사용 불가</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- HOT TIPS -->
+  <section class="reveal">
+    <div class="eyebrow"><span class="tag-glyph">💡</span> Hot tips <span class="bar"></span></div>
+    <h2>김현아 정보 꿀팁! <span style="font-size:14px;font-weight:600;color:var(--muted)">· 김포현대아웃렛</span></h2>
+    <p class="lead">고객사가 특히 강조하고 싶어 하는 포인트예요. 영상·자막에 자연스럽게 녹여주세요.</p>
+    <div class="tips">
+      <div class="tip"><span class="tip-ic">💧</span><div><b>한국 아울렛 중 유일 · 450m 중앙 수로</b><div class="td">최근 리뉴얼 오픈 — "이런 수로, 한국 아울렛엔 여기밖에 없어요"</div></div></div>
+      <div class="tip"><span class="tip-ic">🏬</span><div><b>국내 최대 규모 매장</b><div class="td">폴로 · 노스페이스 · 뉴발란스 (각 브랜드 국내 최대 규모)</div></div></div>
+      <div class="tip"><span class="tip-ic">🔥</span><div><b>인기 브랜드 총집합</b><div class="td">버버리 · 아크테릭스 · 호카</div></div></div>
+      <div class="tip"><span class="tip-ic">🥯</span><div><b>3F 밀리스트 카페</b><div class="td">서울 3대 베이글 입점 + 한강뷰 카페</div></div></div>
+      <div class="tip"><span class="tip-ic">🚕</span><div><b>택시 이벤트</b><div class="td">택시 영수증 제시 시 2만원 상품권 — 공항 15분, 실부담 약 만원</div></div></div>
+      <div class="tip"><span class="tip-ic">🚌</span><div><b>무료 셔틀</b><div class="td">명동·홍대 등에서 김포점까지 무료 이동</div></div></div>
+    </div>
+    <figure class="gimg" style="margin:14px auto 0;max-width:560px"><img src="img/waterway.png" alt="450m 중앙 수로" style="width:100%;aspect-ratio:16/9;object-fit:cover;object-position:center 32%" loading="lazy"><figcaption>450m 중앙 수로 — 한국 아울렛 중 여기만 (리뉴얼 오픈)</figcaption></figure>
+  </section>
+
+  <!-- CHECKLIST -->
+  <section class="reveal">
+    <div class="eyebrow"><span class="num">✓</span> Final checklist <span class="bar"></span></div>
+    <h2>마지막 체크리스트</h2>
+    <div class="dd-col do" style="max-width:none">
+      <h4>✅ 이것만 체크하세요</h4>
+      <ul>
+        <li>실제 방문 후기 느낌</li>
+        <li>본인 옵션의 필수 동선 모두 포함</li>
+        <li>매장·공간 3곳 이상 (지정 브랜드 2곳 + 자유 1곳)</li>
+        <li>식사·카페(F&amp;B) 1곳 이상 포함</li>
+        <li>무료 셔틀·택시 이벤트 짧게라도 소개</li>
+        <li>세금환급은 1F 셀프 기기 · "매장별 가능"으로 정확히</li>
+        <li>계정 태그 + 해시태그 5개</li>
+        <li>상업적 사운드 음원 사용</li>
+        <li>업로드 기한 체크</li>
+        <li>다른 아울렛과 비교 X</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div style="font-weight:700;color:var(--ink);margin-bottom:6px">문의사항: 틱톡 DM</div>
+    <div class="links">
+      <span>TikTok · <a href="https://www.tiktok.com/@looplab_official">@looplab_official</a></span>
+      <span>E-mail · <a href="mailto:looplab@looplab.co.kr">looplab@looplab.co.kr</a></span>
+    </div>
+    <div class="copy">본 챌린지는 현대아울렛의 TikTok 파트너사 루프랩이 기획/운영합니다. 본 문서를 무단 배포·복제하는 행위를 금합니다.<br>© 2026 Looplab Inc. All rights reserved.</div>
+  </footer>
+
+</div>
+
+<script>
+  const obs=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');obs.unobserve(e.target);}})},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
