@@ -230,6 +230,7 @@
   .floormap{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:2px 0 10px;}
   .bld{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);break-inside:avoid;}
   .bld .bld-h{background:#F6F2EB;text-align:center;font-family:var(--en);font-weight:700;font-size:12.5px;letter-spacing:.06em;padding:8px;color:#43434B;border-bottom:1px solid var(--line);}
+  .bld .bld-fac{background:#EFF7F1;text-align:center;font-size:10.5px;font-weight:600;color:var(--brand);line-height:1.45;padding:6px 8px;border-bottom:1px solid var(--line);min-height:32px;display:flex;align-items:center;justify-content:center;}
   .bld .flr{display:grid;grid-template-columns:26px 1fr;gap:7px;padding:8px 10px;border-bottom:1px solid var(--line);font-size:12px;align-items:baseline;}
   .bld .flr:last-child{border-bottom:none;}
   .bld .flr .lv{font-family:var(--en);font-weight:700;color:var(--brand);font-size:11.5px;}
@@ -341,12 +342,12 @@
     <div class="eyebrow"><span class="tag-glyph">🏷️</span> At a glance <span class="bar"></span></div>
     <h2>一目でわかる概要</h2>
     <div class="facts">
-      <div class="fact"><span class="k">Length</span><span class="v"><b>30秒以内</b>の拡散型、または <b>1分以内</b>の情報型から選択</span></div>
+      <div class="fact"><span class="k">Length</span><span class="v"><b>30秒以内</b>の拡散型、または <b>1分以内</b>の情報紹介型から選択</span></div>
       <div class="fact"><span class="k">Upload</span><span class="v">8/5(水) ~ 8/10(月)</span></div>
       <div class="fact"><span class="k">Reward</span><span class="v">活動支援金(H.Point) <b>100,000P</b> + 制作料</span></div>
       <div class="fact"><span class="k">Tone</span><span class="v">ブランド・店舗が映るのは OK。実際の来店客のように自然に</span></div>
     </div>
-    <div class="callout">💡 <strong>最後まで見てもらうことが重要。</strong> 短くインパクト重視なら30秒、いろいろな場面や情報を入れたいなら1分。大切なのは<strong>最後まで見てもらうこと</strong>です。</div>
+    <div class="callout">💡 <strong>最後まで視聴してもらうことが重要です。</strong> 短くインパクト重視なら30秒、いろいろな場面や情報を入れたいなら1分。大切なのは<strong>最後まで見てもらうこと</strong>です。</div>
   </section>
 
   <!-- 30 vs 60 -->
@@ -355,7 +356,7 @@
     <h2>30秒と1分、何が違う？</h2>
     <p class="lead">選んだオプションの<b>必須シーン</b>は、どちらの長さでも必ず入れてください。違いは「どれだけ詳しく見せるか」です。</p>
     <table class="tbl">
-      <thead><tr><th></th><th>30秒以内 · 拡散型</th><th>1分以内 · 情報型</th></tr></thead>
+      <thead><tr><th></th><th>30秒以内 · 拡散型</th><th>1分以内 · 情報紹介型</th></tr></thead>
       <tbody>
         <tr><td>必須シーン</td><td>すべて含める。<span class="accent">1シーン1~3秒</span>の速いカット</td><td>すべて含める。ゆとりを持って OK</td></tr>
         <tr><td>スタイル</td><td>インパクトあるフック + 速いカット</td><td>コース紹介 · 情報提供型</td></tr>
@@ -446,7 +447,7 @@
       <h4>🧳 荷物預かりの案内</h4>
       <ul>
         <li>コインロッカーは <b>EAST 1F</b>(マルベリー店舗の裏)と <b>TOWER ZONE 1F</b>(マジックエディションを過ぎたエレベーターホール)の2か所にあります。</li>
-        <li>スーツケースは <b>1F インフォメーションデスク(WEST)</b> でスタッフにお預けいただくこともできます。</li>
+        <li>スーツケース・バッグ・ショッピングバッグなどは <b>1F インフォメーションデスク(WEST)</b> でスタッフにお預けいただくこともできます。</li>
         <li>到着時に預けても、買い物中に荷物が増えたら追加で預けても OK です。</li>
         <li>ショッピングバッグをロッカーに入れるシーンは、「荷物を気にせず遊べる」感じが伝わっておすすめです。</li>
       </ul>
@@ -487,20 +488,23 @@
     <div class="floormap">
       <div class="bld">
         <div class="bld-h">WEST</div>
+        <div class="bld-fac">🏢 1F インフォメーションデスク · タックスリファンド · 荷物預かり</div>
         <div class="flr"><span class="lv">3F</span><span class="br">MLB</span></div>
         <div class="flr"><span class="lv">2F</span><span class="br">ニューバランス</span></div>
-        <div class="flr"><span class="lv">1F</span><span class="br">ポロ ラルフローレン<br><span class="fac">インフォメーションデスク · タックスリファンド · スーツケース預かり</span></span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">ポロ ラルフローレン</span></div>
       </div>
       <div class="bld">
         <div class="bld-h">EAST</div>
+        <div class="bld-fac">🧳 1F コインロッカー (マルベリー裏)</div>
         <div class="flr"><span class="lv">3F</span><span class="br"><span class="dash">—</span></span></div>
         <div class="flr"><span class="lv">2F</span><span class="br">ホカ (HOKA)</span></div>
-        <div class="flr"><span class="lv">1F</span><span class="br">バーバリー<br><span class="fac">コインロッカー(マルベリー裏)</span></span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">バーバリー</span></div>
       </div>
       <div class="bld">
         <div class="bld-h">TOWER ZONE</div>
+        <div class="bld-fac">🧳 1F コインロッカー (エレベーターホール)</div>
         <div class="flr"><span class="lv">3F</span><span class="br">ノースフェイス · アークテリクス</span></div>
-        <div class="flr"><span class="lv">1F</span><span class="br">キッズカフェ(プチプラネット)<br><span class="fac">コインロッカー(エレベーターホール)</span></span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">キッズカフェ(プチプラネット)</span></div>
       </div>
     </div>
     <p class="mapnote">※ ミリスト(F&amp;B) · レゴ · 授乳室は <b>3F</b>(正確な建物名は現代側に確認予定)。</p>
@@ -535,12 +539,12 @@
         <div class="step"><div class="scene">Outlet に到着</div><div class="cap">Hyundai Premium Outlet Gimpo に到着！</div></div>
         <div class="step"><div class="scene">ショッピング開始</div><div class="cap">さっそく買い物してみます</div></div>
         <div class="step"><div class="scene">ロッカーに荷物を入れる (ショッピングバッグを入れるシーン)</div><div class="cap">荷物を預けて身軽に</div></div>
-        <div class="step"><div class="scene">指定ブランドから2か所以上を訪問 — <b>H.Point はここでのショッピング決済にも OK！</b> <span class="floor">· 上の表を参照</span></div><div class="cap">服・雑貨・ラグジュアリーも H.Point で決済</div></div>
-        <div class="step"><div class="scene">自由な店舗を1か所訪問 (お好きなブランド)</div><div class="cap">これも自国より安い</div></div>
+        <div class="step"><div class="scene">指定ブランドから2か所以上を訪問 — <b>H.Point でショッピングの支払いもできます！</b> <span class="floor">· 上の表を参照</span></div><div class="cap">服・雑貨・ラグジュアリーも H.Point で決済</div></div>
+        <div class="step"><div class="scene">自由な店舗を1か所訪問 (お好きなブランド)</div><div class="cap">自国よりお得！</div></div>
         <div class="step"><div class="scene">セール情報を見せる (自国の価格との比較も OK)</div><div class="cap">自国よりずっとお得</div></div>
         <div class="step"><div class="scene">カフェ・レストランの利用 (H.Point で決済) <span class="floor">· ミリスト 3F おすすめ</span></div><div class="cap">ソウル3大ベーグルに漢江ビューまで</div></div>
         <div class="step"><div class="scene">1階の中央水路で休憩・楽しむ</div><div class="cap">450mの水路、韓国の Outlet ではここだけ！</div></div>
-        <div class="step"><div class="scene">1F インフォメーションデスク左側のセルフ端末で免税手続き</div><div class="cap">セルフで還付まで完了</div></div>
+        <div class="step"><div class="scene">1F インフォメーションデスク左側のセルフ端末で免税手続き</div><div class="cap">セルフで免税手続きまで完了</div></div>
       </div>
       </div>
     </div>
@@ -553,7 +557,7 @@
         <div class="ex-img filled"><img src="../img/ex-lifestyle.png" alt="ライフスタイル型のコンテンツ例" loading="lazy"></div>
       <div class="steps">
         <div class="step"><div class="scene">移動 — 無料シャトルまたはタクシーイベントの紹介</div><div class="cap">無料シャトル or タクシーイベントでラクラク！</div></div>
-        <div class="step"><div class="scene">Outlet に到着</div><div class="cap">今日はゆっくり見て回ります</div></div>
+        <div class="step"><div class="scene">Outlet に到着</div><div class="cap">今日はゆっくり館内を回ります</div></div>
         <div class="step"><div class="scene">荷物預かりの利用方法を紹介</div><div class="cap">荷物はここに預ければ OK</div></div>
         <div class="step"><div class="scene">ゆったり歩きながら、どんなサービス・空間があるか紹介 (メイン)</div><div class="cap">こんなのもあります</div></div>
         <div class="step"><div class="scene">入居ブランドの紹介 (字幕だけでも OK)</div><div class="cap">ポロ・ノースフェイス・ニューバランス・バーバリー・アークテリクス・ホカ・MLB 全部あります</div></div>
@@ -572,15 +576,14 @@
         <div class="ex-img filled"><img src="../img/ex-family.png" alt="ファミリーおでかけ型のコンテンツ例" loading="lazy"></div>
       <div class="steps">
         <div class="step"><div class="scene">移動 — 自家用車なら駐車特典の案内 / シャトル・タクシーイベントは簡単に紹介</div><div class="cap">駐車特典もしっかりゲット！</div></div>
-        <div class="step"><div class="scene">Outlet に到着</div><div class="cap">子どもと1日おでかけ！</div></div>
-        <div class="step"><div class="scene">ベビーカーのレンタル</div><div class="cap">ベビーカーがなくても安心</div></div>
-        <div class="step"><div class="scene">荷物預かりの紹介と利用</div><div class="cap">荷物はここに預けて</div></div>
-        <div class="step"><div class="scene">キッズゾーン体験 — タイガーリリー キッズカフェ <span class="floor">· TOWER ZONE 1F プチプラネット</span></div><div class="cap">子どものためのフロアが丸ごと</div></div>
-        <div class="step"><div class="scene">レゴなど子ども向け店舗 <span class="floor">· 3F</span></div><div class="cap">レゴ店から離れてくれない</div></div>
-        <div class="step"><div class="scene">3階の授乳室など設備の案内 <span class="floor">· 3F</span></div><div class="cap">授乳室もしっかり整っています</div></div>
-        <div class="step"><div class="scene">1階の中央水路で休憩・楽しむ</div><div class="cap">450mの水路、韓国の Outlet ではここだけ！</div></div>
-        <div class="step"><div class="scene">カフェ・レストランの利用 (H.Point で決済) <span class="floor">· ミリスト 3F</span></div><div class="cap">子どもが遊んでいる間にコーヒータイム</div></div>
-        <div class="step"><div class="scene">1F インフォメーションデスク左側のセルフ端末で免税手続き</div><div class="cap">還付まで済ませて締めくくり</div></div>
+        <div class="step"><div class="scene">到着後 <b>WEST インフォメーションデスク</b> — ベビーカーのレンタル + 荷物預かり <span class="floor">· WEST 1F</span></div><div class="cap">ベビーカーを借りて荷物も預けて</div></div>
+        <div class="step"><div class="scene">レゴストアめぐり <span class="floor">· EAST・WEST の間</span></div><div class="cap">レゴ店から離れてくれない</div></div>
+        <div class="step"><div class="scene">TOWER ZONE へ移動 → タイガーリリー キッズカフェ前の <b>ベビーカー置き場</b> にベビーカーを駐車 <span class="floor">· TOWER ZONE 1F</span></div><div class="cap">ベビーカーはここに置いて</div></div>
+        <div class="step"><div class="scene">プチプラネットなどキッズゾーンを利用 <span class="floor">· TOWER ZONE 1F</span></div><div class="cap">子ども向けのフロアがまるごと！</div></div>
+        <div class="step"><div class="scene">自由にショッピング</div><div class="cap">子ども服・用品も Outlet 価格で</div></div>
+        <div class="step"><div class="scene">3階へ移動 — H Kitchen で食事・カフェ利用 <span class="floor">· 3F</span></div><div class="cap">子どもが遊んでいる間に食事・コーヒータイム</div></div>
+        <div class="step"><div class="scene">WEST・EAST の間の <b>中央水路</b> を紹介・休憩</div><div class="cap">450mの水路、韓国の Outlet ではここだけ！</div></div>
+        <div class="step"><div class="scene">WEST へ移動 → 1F セルフ端末で免税手続き</div><div class="cap">最後に免税手続きを済ませて終了！</div></div>
       </div>
       </div>
     </div>

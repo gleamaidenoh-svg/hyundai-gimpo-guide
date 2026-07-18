@@ -230,6 +230,7 @@
   .floormap{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:2px 0 10px;}
   .bld{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);break-inside:avoid;}
   .bld .bld-h{background:#F6F2EB;text-align:center;font-family:var(--en);font-weight:700;font-size:12.5px;letter-spacing:.06em;padding:8px;color:#43434B;border-bottom:1px solid var(--line);}
+  .bld .bld-fac{background:#EFF7F1;text-align:center;font-size:10.5px;font-weight:600;color:var(--brand);line-height:1.45;padding:6px 8px;border-bottom:1px solid var(--line);min-height:32px;display:flex;align-items:center;justify-content:center;}
   .bld .flr{display:grid;grid-template-columns:26px 1fr;gap:7px;padding:8px 10px;border-bottom:1px solid var(--line);font-size:12px;align-items:baseline;}
   .bld .flr:last-child{border-bottom:none;}
   .bld .flr .lv{font-family:var(--en);font-weight:700;color:var(--brand);font-size:11.5px;}
@@ -446,7 +447,7 @@
       <h4>🧳 行李寄存介绍</h4>
       <ul>
         <li>自助储物柜共2处: <b>EAST 1F</b>(Mulberry 门店后方)与 <b>TOWER ZONE 1F</b>(经过 Magic Edition 的电梯厅)。</li>
-        <li>行李箱也可在 <b>1F 服务台(WEST)</b> 交由工作人员保管。</li>
+        <li>行李箱·包·购物袋等也可在 <b>1F 服务台(WEST)</b> 交由工作人员保管。</li>
         <li>可在抵达时寄存，购物途中行李变多时也可再次寄存。</li>
         <li>把购物袋放进储物柜的画面，很能传达「不用扛着行李，尽情畅玩」的感觉。</li>
       </ul>
@@ -487,20 +488,23 @@
     <div class="floormap">
       <div class="bld">
         <div class="bld-h">WEST</div>
+        <div class="bld-fac">🏢 1F 服务台 · 退税 · 行李寄存</div>
         <div class="flr"><span class="lv">3F</span><span class="br">MLB</span></div>
         <div class="flr"><span class="lv">2F</span><span class="br">New Balance</span></div>
-        <div class="flr"><span class="lv">1F</span><span class="br">Polo Ralph Lauren<br><span class="fac">服务台 · 退税 · 行李箱寄存</span></span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">Polo Ralph Lauren</span></div>
       </div>
       <div class="bld">
         <div class="bld-h">EAST</div>
+        <div class="bld-fac">🧳 1F 储物柜 (Mulberry 后方)</div>
         <div class="flr"><span class="lv">3F</span><span class="br"><span class="dash">—</span></span></div>
         <div class="flr"><span class="lv">2F</span><span class="br">HOKA</span></div>
-        <div class="flr"><span class="lv">1F</span><span class="br">Burberry<br><span class="fac">储物柜(Mulberry 后方)</span></span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">Burberry</span></div>
       </div>
       <div class="bld">
         <div class="bld-h">TOWER ZONE</div>
+        <div class="bld-fac">🧳 1F 储物柜 (电梯厅)</div>
         <div class="flr"><span class="lv">3F</span><span class="br">The North Face · ARC'TERYX</span></div>
-        <div class="flr"><span class="lv">1F</span><span class="br">儿童乐园(Petit Planet)<br><span class="fac">储物柜(电梯厅)</span></span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">儿童乐园(Petit Planet)</span></div>
       </div>
     </div>
     <p class="mapnote">※ Millist(F&amp;B) · 乐高 · 母婴室位于 <b>3F</b>(具体建筑名称待现代方确认)。</p>
@@ -572,15 +576,14 @@
         <div class="ex-img filled"><img src="../img/ex-family-zh.png" alt="亲子出游型内容示例" loading="lazy"></div>
       <div class="steps">
         <div class="step"><div class="scene">前往 — 自驾则介绍停车优惠 / 班车·出租车活动简单介绍</div><div class="cap">停车优惠也别错过！</div></div>
-        <div class="step"><div class="scene">抵达 Outlet</div><div class="cap">和孩子出游一整天！</div></div>
-        <div class="step"><div class="scene">租借婴儿车</div><div class="cap">没带婴儿车也不用担心</div></div>
-        <div class="step"><div class="scene">介绍并使用行李寄存</div><div class="cap">行李就寄存在这里</div></div>
-        <div class="step"><div class="scene">儿童区体验 — Tiger Lily 儿童乐园 <span class="floor">· TOWER ZONE 1F Petit Planet</span></div><div class="cap">整整一层都是给孩子的</div></div>
-        <div class="step"><div class="scene">乐高等儿童门店 <span class="floor">· 3F</span></div><div class="cap">在乐高店赖着不走了</div></div>
-        <div class="step"><div class="scene">介绍3楼母婴室等便利设施 <span class="floor">· 3F</span></div><div class="cap">母婴室也很完善</div></div>
-        <div class="step"><div class="scene">在1楼中央水道休息·畅玩</div><div class="cap">450m 水道，全韩国 Outlet 只有这里有！</div></div>
-        <div class="step"><div class="scene">咖啡厅·餐厅体验 (用 H.Point 结账) <span class="floor">· Millist 3F</span></div><div class="cap">孩子玩耍时来杯咖啡</div></div>
-        <div class="step"><div class="scene">在 1F 服务台左侧退税自助机办理退税</div><div class="cap">退完税，完美收尾</div></div>
+        <div class="step"><div class="scene">抵达后先到 <b>WEST 服务台</b> — 租借婴儿车 + 寄存行李 <span class="floor">· WEST 1F</span></div><div class="cap">借好婴儿车，行李也寄存</div></div>
+        <div class="step"><div class="scene">逛乐高门店 <span class="floor">· EAST·WEST 之间</span></div><div class="cap">在乐高店赖着不走了</div></div>
+        <div class="step"><div class="scene">前往 TOWER ZONE → 在 Tiger Lily 儿童乐园门口的 <b>婴儿车停放区</b> 停好婴儿车 <span class="floor">· TOWER ZONE 1F</span></div><div class="cap">婴儿车就停在这里</div></div>
+        <div class="step"><div class="scene">体验 Petit Planet 等儿童区 <span class="floor">· TOWER ZONE 1F</span></div><div class="cap">整整一层都是给孩子的</div></div>
+        <div class="step"><div class="scene">自由购物</div><div class="cap">儿童服饰·用品也是 Outlet 价格</div></div>
+        <div class="step"><div class="scene">前往3楼 — 在 H Kitchen 用餐·咖啡厅 <span class="floor">· 3F</span></div><div class="cap">孩子玩耍时用餐·喝咖啡</div></div>
+        <div class="step"><div class="scene">介绍并在 WEST·EAST 之间的 <b>中央水道</b> 休息</div><div class="cap">450m 水道，全韩国 Outlet 只有这里有！</div></div>
+        <div class="step"><div class="scene">前往 WEST → 在 1F 退税自助机办理退税</div><div class="cap">退完税，完美收尾</div></div>
       </div>
       </div>
     </div>

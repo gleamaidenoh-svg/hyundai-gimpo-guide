@@ -230,6 +230,7 @@
   .floormap{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:2px 0 10px;}
   .bld{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);break-inside:avoid;}
   .bld .bld-h{background:#F6F2EB;text-align:center;font-family:var(--en);font-weight:700;font-size:12.5px;letter-spacing:.06em;padding:8px;color:#43434B;border-bottom:1px solid var(--line);}
+  .bld .bld-fac{background:#EFF7F1;text-align:center;font-size:10.5px;font-weight:600;color:var(--brand);line-height:1.45;padding:6px 8px;border-bottom:1px solid var(--line);min-height:32px;display:flex;align-items:center;justify-content:center;}
   .bld .flr{display:grid;grid-template-columns:26px 1fr;gap:7px;padding:8px 10px;border-bottom:1px solid var(--line);font-size:12px;align-items:baseline;}
   .bld .flr:last-child{border-bottom:none;}
   .bld .flr .lv{font-family:var(--en);font-weight:700;color:var(--brand);font-size:11.5px;}
@@ -446,7 +447,7 @@
       <h4>🧳 짐 보관소 안내</h4>
       <ul>
         <li>무인 물품보관함은 <b>EAST 1F</b>(멀버리 매장 뒷편)와 <b>TOWER ZONE 1F</b>(매직에디션 지나 엘리베이터 홀) 2곳에 있어요.</li>
-        <li>캐리어는 <b>1F 안내데스크(WEST)</b>에서 직원에게 맡길 수도 있어요.</li>
+        <li>캐리어·가방·쇼핑백 등은 <b>1F 안내데스크(WEST)</b>에서 직원에게 맡길 수도 있어요.</li>
         <li>도착할 때 맡기거나, 쇼핑하다 짐이 늘면 추가로 맡겨도 좋아요.</li>
         <li>쇼핑백을 보관소에 넣는 장면은 "짐 걱정 없이 논다"는 느낌을 주기 좋아요.</li>
       </ul>
@@ -487,20 +488,23 @@
     <div class="floormap">
       <div class="bld">
         <div class="bld-h">WEST</div>
+        <div class="bld-fac">🏢 1F 안내데스크 · 텍스리펀 · 캐리어·짐 위탁</div>
         <div class="flr"><span class="lv">3F</span><span class="br">MLB</span></div>
         <div class="flr"><span class="lv">2F</span><span class="br">뉴발란스</span></div>
-        <div class="flr"><span class="lv">1F</span><span class="br">폴로 랄프로렌<br><span class="fac">안내데스크 · 텍스리펀 · 캐리어 위탁</span></span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">폴로 랄프로렌</span></div>
       </div>
       <div class="bld">
         <div class="bld-h">EAST</div>
+        <div class="bld-fac">🧳 1F 물품보관함 (멀버리 뒷편)</div>
         <div class="flr"><span class="lv">3F</span><span class="br"><span class="dash">—</span></span></div>
         <div class="flr"><span class="lv">2F</span><span class="br">호카 (HOKA)</span></div>
-        <div class="flr"><span class="lv">1F</span><span class="br">버버리<br><span class="fac">물품보관함(멀버리 뒷편)</span></span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">버버리</span></div>
       </div>
       <div class="bld">
         <div class="bld-h">TOWER ZONE</div>
+        <div class="bld-fac">🧳 1F 물품보관함 (엘리베이터 홀)</div>
         <div class="flr"><span class="lv">3F</span><span class="br">노스페이스 · 아크테릭스</span></div>
-        <div class="flr"><span class="lv">1F</span><span class="br">키즈카페(쁘띠플래닛)<br><span class="fac">물품보관함(엘리베이터 홀)</span></span></div>
+        <div class="flr"><span class="lv">1F</span><span class="br">키즈카페(쁘띠플래닛)</span></div>
       </div>
     </div>
     <p class="mapnote">※ 밀리스트(F&amp;B) · 레고 · 수유실은 <b>3F</b> (정확한 건물명은 현대 확인 예정).</p>
@@ -572,15 +576,14 @@
         <div class="ex-img filled"><img src="img/ex-family.png" alt="가족 나들이형 콘텐츠 예시" loading="lazy"></div>
       <div class="steps">
         <div class="step"><div class="scene">이동 — 자차면 주차 혜택 안내 / 셔틀·택시 이벤트는 간단히 소개</div><div class="cap">주차 혜택도 챙기고!</div></div>
-        <div class="step"><div class="scene">아울렛 도착</div><div class="cap">아이랑 하루 나들이!</div></div>
-        <div class="step"><div class="scene">유모차 대여</div><div class="cap">유모차 없어도 걱정 없어요</div></div>
-        <div class="step"><div class="scene">짐 보관소 소개 및 이용</div><div class="cap">짐은 여기 맡기고</div></div>
-        <div class="step"><div class="scene">키즈존 체험 — 타이거릴리 키즈카페 <span class="floor">· 타워존 1F 쁘띠플래닛</span></div><div class="cap">아이를 위한 층이 통째로</div></div>
-        <div class="step"><div class="scene">레고 등 아동 매장 <span class="floor">· 3F</span></div><div class="cap">레고 매장에서 안 가려고 함</div></div>
-        <div class="step"><div class="scene">3층 수유실 등 편의시설 안내 <span class="floor">· 3F</span></div><div class="cap">수유실도 잘 돼 있어요</div></div>
-        <div class="step"><div class="scene">1층 중앙 수로에서 휴식·즐기기</div><div class="cap">450m 수로, 한국 아울렛 중 여기만!</div></div>
-        <div class="step"><div class="scene">카페·식당 이용 (H.Point 결제) <span class="floor">· 밀리스트 3F</span></div><div class="cap">아이 노는 동안 커피 타임</div></div>
-        <div class="step"><div class="scene">1F 인포데스크 좌측 텍스리펀 셀프 기기에서 환급</div><div class="cap">환급까지 챙기고 마무리</div></div>
+        <div class="step"><div class="scene">도착 후 <b>WEST 안내데스크</b> — 유모차 대여 + 짐 보관 <span class="floor">· WEST 1F</span></div><div class="cap">유모차 빌리고 짐도 맡기고</div></div>
+        <div class="step"><div class="scene">레고 매장 둘러보기 <span class="floor">· EAST·WEST 사이</span></div><div class="cap">레고 매장에서 안 가려고 함</div></div>
+        <div class="step"><div class="scene">타워존으로 이동 → 타이거릴리 키즈카페 앞 <b>유모차 주차장</b>에 유모차 주차 <span class="floor">· 타워존 1F</span></div><div class="cap">유모차는 여기 세워두고</div></div>
+        <div class="step"><div class="scene">쁘띠플래닛 등 키즈존 이용 <span class="floor">· 타워존 1F</span></div><div class="cap">아이를 위한 공간이 통째로</div></div>
+        <div class="step"><div class="scene">자유 쇼핑</div><div class="cap">아이 옷·용품도 아울렛 가격으로</div></div>
+        <div class="step"><div class="scene">3층으로 이동 — H Kitchen 식사, 카페 이용 <span class="floor">· 3F</span></div><div class="cap">아이 노는 동안 식사·커피 타임</div></div>
+        <div class="step"><div class="scene">WEST·EAST 사이 <b>중앙 수로</b> 소개·휴식</div><div class="cap">450m 수로, 한국 아울렛 중 여기만!</div></div>
+        <div class="step"><div class="scene">WEST로 이동 → 1F 텍스리펀 셀프 기기에서 환급</div><div class="cap">환급까지 챙기고 마무리</div></div>
       </div>
       </div>
     </div>
