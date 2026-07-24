@@ -171,6 +171,9 @@
   .how ol,.how ul{margin:0;padding-left:20px;}
   .how li{margin:5px 0;font-size:14px;color:#3C3C44;}
   .how li b{color:var(--ink);}
+  .how.cam{border-color:#F0B8BE;background:#FFF6F7;}
+  .how.cam h4{color:var(--shop);}
+  .limitbadge{display:inline-block;font-size:10.5px;font-weight:700;color:#fff;background:var(--shop);padding:1px 7px;border-radius:6px;margin-left:6px;white-space:nowrap;letter-spacing:.02em;}
 
   /* timeline (scenario flow) */
   .flow{--opt:var(--brand);margin-top:16px;}
@@ -410,7 +413,7 @@
     <div class="req">
       <div class="req-row"><span class="chip chip-must">必备</span><div><div class="t">交通方式介绍 <span style="font-weight:500;color:var(--muted);font-size:12.5px">· 推荐班车或出租车</span></div><div class="d">请使用 <b>①NICE TAX FREE 免费班车</b> 或 <b>②出租车活动(2万韩元礼券)</b> 中的一种前来，并拍入该画面。两者都简短介绍会更好。(详见下文)</div></div></div>
       <div class="req-row"><span class="chip chip-must">必备</span><div><div class="t">使用 H.Point</div><div class="d">服饰·箱包配饰·奢侈品·餐厅·咖啡厅等<b>大部分门店均可自由结账</b>。请拍入结账画面。(部分不可使用的门店详见下文)</div></div></div>
-      <div class="req-row"><span class="chip chip-must">必备</span><div><div class="t">购物 (门店·空间打卡)</div><div class="d">购买与否自由(不强制)，但<b>必须探访并介绍共3处以上</b> — <b>指定品牌中2处 + 自选1处</b>(指定品牌请参考下方购物专注型的表格)。也请一并介绍价格·折扣信息！</div></div></div>
+      <div class="req-row"><span class="chip chip-must">必备</span><div><div class="t">购物 (门店·空间打卡)</div><div class="d">购买与否自由(不强制)，但<b>必须探访并介绍共3处以上</b> — <b>指定品牌中2处 + 自选1处</b>(指定品牌请参考下方购物专注型的表格)。也请一并介绍价格·折扣信息！<br><b style="color:var(--shop)">难以拍摄的门店，可换成其他指定品牌，或用门店外观·口头提及代替也没关系。</b>(参考下方📸门店拍摄须知)</div></div></div>
       <div class="req-row"><span class="chip chip-must">必备</span><div><div class="t">餐厅·咖啡厅(F&amp;B)体验</div><div class="d">请至少体验1处，拍出<b>「畅玩一整天」</b>的感觉。(推荐 3F Millist — 首尔三大贝果·汉江景观)</div></div></div>
       <div class="req-row"><span class="chip chip-must">必备</span><div><div class="t">退税</div><div class="d">请拍入在 <b>1F 服务台左侧的退税自助机</b> 办理的画面，或介绍办理方法。(详见下文)</div></div></div>
       <div class="req-row"><span class="chip chip-must">必备</span><div><div class="t">行李寄存介绍</div><div class="d">请拍入寄存行李的画面或相关介绍。</div></div></div>
@@ -421,6 +424,16 @@
     </div>
 
     <!-- how-to -->
+    <div class="how">
+      <div class="how cam">
+      <h4>📸 门店拍摄须知 (请务必阅读)</h4>
+      <ul>
+        <li><b>若店员制止拍摄，请立即配合停止。</b> 不要争执，直接中断即可。</li>
+        <li>难以拍摄的门店，<b>「这里也有○○门店」口头提及一下带过即可。</b> 不影响必备条件。</li>
+        <li><b>Polo · HOKA · Burberry</b> 店内拍摄受限可能性较高。其他奢侈品门店、<b>Nike · Adidas · Olive Young</b> 也可能有限制。</li>
+        <li>比起专业相机，<b>用手机</b> 随手拍即可。看起来像官方拍摄反而更难获得配合。<b>像平时的 vlog 一样</b> 自然最好！</li>
+      </ul>
+    </div>
     <div class="how">
       <h4>💳 H.Point 使用方法</h4>
       <ul>
@@ -523,11 +536,11 @@
       <table class="tbl" style="margin:4px 0 14px;">
         <thead><tr><th>指定品牌</th><th>楼层</th><th>话术·亮点 (可用作字幕)</th></tr></thead>
         <tbody>
-          <tr><td class="accent">Polo Ralph Lauren</td><td>WEST 1F</td><td>「听说Polo的货源，这里最全！」</td></tr>
+          <tr><td class="accent">Polo Ralph Lauren <span class="limitbadge">拍摄或受限</span></td><td>WEST 1F</td><td>「听说Polo的货源，这里最全！」</td></tr>
           <tr><td class="accent">New Balance</td><td>WEST 2F</td><td>「听说是韩国规模最大的门店！」</td></tr>
           <tr><td class="accent">MLB</td><td>WEST 3F</td><td>「全球都很火的那个品牌」</td></tr>
-          <tr><td class="accent">Burberry</td><td>EAST 1F</td><td>「奢侈品也能用奥莱价入手」</td></tr>
-          <tr><td class="accent">HOKA</td><td>EAST 2F</td><td>「跑鞋人气品牌」</td></tr>
+          <tr><td class="accent">Burberry <span class="limitbadge">拍摄或受限</span></td><td>EAST 1F</td><td>「奢侈品也能用奥莱价入手」</td></tr>
+          <tr><td class="accent">HOKA <span class="limitbadge">拍摄或受限</span></td><td>EAST 2F</td><td>「跑鞋人气品牌」</td></tr>
           <tr><td class="accent">The North Face</td><td>TOWER ZONE 3F</td><td>「听说是韩国限定(白标)」</td></tr>
           <tr><td class="accent">ARC'TERYX</td><td>TOWER ZONE 3F</td><td>「最近最火的品牌」</td></tr>
         </tbody>
@@ -663,6 +676,7 @@
         <li>是否包含1处以上餐饮·咖啡厅(F&amp;B)</li>
         <li>是否简短介绍了免费班车·出租车活动</li>
         <li>退税表述为 1F 自助机 · 「能否退税视门店而定」是否准确</li>
+        <li>门店制止就立即停止 · 口头提及带过</li>
         <li>账号标记 + 话题标签5个</li>
         <li>是否使用了商业音源</li>
         <li>确认上传截止日期</li>

@@ -171,6 +171,9 @@
   .how ol,.how ul{margin:0;padding-left:20px;}
   .how li{margin:5px 0;font-size:14px;color:#3C3C44;}
   .how li b{color:var(--ink);}
+  .how.cam{border-color:#F0B8BE;background:#FFF6F7;}
+  .how.cam h4{color:var(--shop);}
+  .limitbadge{display:inline-block;font-size:10.5px;font-weight:700;color:#fff;background:var(--shop);padding:1px 7px;border-radius:6px;margin-left:6px;white-space:nowrap;letter-spacing:.02em;}
 
   /* timeline (scenario flow) */
   .flow{--opt:var(--brand);margin-top:16px;}
@@ -410,7 +413,7 @@
     <div class="req">
       <div class="req-row"><span class="chip chip-must">必須</span><div><div class="t">交通手段の紹介 <span style="font-weight:500;color:var(--muted);font-size:12.5px">· シャトルまたはタクシー推奨</span></div><div class="d"><b>①NICE TAX FREE 無料シャトル</b> または <b>②タクシーイベント(2万ウォン商品券)</b> のどちらかを利用して来店し、そのシーンを入れてください。両方を短く紹介いただけるとさらに good です。(下記参照)</div></div></div>
       <div class="req-row"><span class="chip chip-must">必須</span><div><div class="t">H.Point の利用</div><div class="d">衣類・雑貨・ラグジュアリー・レストラン・カフェなど<b>ほとんどの店舗で自由に決済</b>できます。決済シーンを入れてください。(一部利用できない店舗は下記参照)</div></div></div>
-      <div class="req-row"><span class="chip chip-must">必須</span><div><div class="t">ショッピング (店舗・空間の訪問)</div><div class="d">購入は自由(強制ではありません)。ただし<b>合計3か所以上の訪問・紹介</b>が必須 — <b>指定ブランドから2か所 + 自由に1か所</b>(指定ブランドは下のショッピング特化型の表を参照)。価格・セール情報も一緒に！</div></div></div>
+      <div class="req-row"><span class="chip chip-must">必須</span><div><div class="t">ショッピング (店舗・空間の訪問)</div><div class="d">購入は自由(強制ではありません)。ただし<b>合計3か所以上の訪問・紹介</b>が必須 — <b>指定ブランドから2か所 + 自由に1か所</b>(指定ブランドは下のショッピング特化型の表を参照)。価格・セール情報も一緒に！<br><b style="color:var(--shop)">撮影が難しい店舗は、他の指定ブランドに変えたり、店舗の外観・言及で代えても大丈夫です。</b>(下の📸店舗撮影ガイド参照)</div></div></div>
       <div class="req-row"><span class="chip chip-must">必須</span><div><div class="t">レストラン・カフェ(F&amp;B)の利用</div><div class="d">1か所以上利用して<b>「1日楽しむ」</b>シーンを入れてください。(3F ミリスト おすすめ — ソウル3大ベーグル・漢江ビュー)</div></div></div>
       <div class="req-row"><span class="chip chip-must">必須</span><div><div class="t">免税手続き(タックスリファンド)</div><div class="d"><b>1F インフォメーションデスク左側のタックスリファンド・セルフ端末</b>で手続きするシーン、または方法の紹介を入れてください。(下記参照)</div></div></div>
       <div class="req-row"><span class="chip chip-must">必須</span><div><div class="t">荷物預かりの案内</div><div class="d">荷物を預けるシーン、または案内を入れてください。</div></div></div>
@@ -421,6 +424,16 @@
     </div>
 
     <!-- how-to -->
+    <div class="how">
+      <div class="how cam">
+      <h4>📸 店舗撮影ガイド (必ずお読みください)</h4>
+      <ul>
+        <li><b>店員さんに撮影を止められたら、すぐに従ってください。</b> もめずに中断すればOKです。</li>
+        <li>撮影が難しい店舗は <b>「ここに○○もあります」程度の言及だけで通り過ぎても大丈夫です。</b> 必須条件に支障ありません。</li>
+        <li><b>ポロ · ホカ · バーバリー</b>は店内撮影が難しい可能性が高いです。その他のラグジュアリー店舗、<b>ナイキ · アディダス · オリーブヤング</b>も制限がある場合があります。</li>
+        <li>専用カメラより <b>スマホで</b> 気軽に撮ってください。公式撮影のように見えると、かえって協力を得にくくなります。<b>普段のvlogのように</b> 自然にが一番です！</li>
+      </ul>
+    </div>
     <div class="how">
       <h4>💳 H.Point の使い方</h4>
       <ul>
@@ -523,11 +536,11 @@
       <table class="tbl" style="margin:4px 0 14px;">
         <thead><tr><th>指定ブランド</th><th>フロア</th><th>コメント・ポイント (字幕で活用)</th></tr></thead>
         <tbody>
-          <tr><td class="accent">ポロ ラルフローレン</td><td>WEST 1F</td><td>「ポロの在庫、ここが一番多いんだって！」</td></tr>
+          <tr><td class="accent">ポロ ラルフローレン <span class="limitbadge">撮影制限あり</span></td><td>WEST 1F</td><td>「ポロの在庫、ここが一番多いんだって！」</td></tr>
           <tr><td class="accent">ニューバランス</td><td>WEST 2F</td><td>「韓国最大規模の店舗なんだって！」</td></tr>
           <tr><td class="accent">MLB</td><td>WEST 3F</td><td>「世界中で人気のあのブランド」</td></tr>
-          <tr><td class="accent">バーバリー</td><td>EAST 1F</td><td>「ラグジュアリーもアウトレット価格で」</td></tr>
-          <tr><td class="accent">ホカ</td><td>EAST 2F</td><td>「ランニングシューズの人気ブランド」</td></tr>
+          <tr><td class="accent">バーバリー <span class="limitbadge">撮影制限あり</span></td><td>EAST 1F</td><td>「ラグジュアリーもアウトレット価格で」</td></tr>
+          <tr><td class="accent">ホカ <span class="limitbadge">撮影制限あり</span></td><td>EAST 2F</td><td>「ランニングシューズの人気ブランド」</td></tr>
           <tr><td class="accent">ノースフェイス</td><td>TOWER ZONE 3F</td><td>「韓国限定(ホワイトレーベル)なんだって」</td></tr>
           <tr><td class="accent">アークテリクス</td><td>TOWER ZONE 3F</td><td>「今いちばんホットなブランド」</td></tr>
         </tbody>
@@ -663,6 +676,7 @@
         <li>食事・カフェ(F&amp;B)を1か所以上含んでいるか</li>
         <li>無料シャトル・タクシーイベントを短くても紹介したか</li>
         <li>免税手続きは 1F セルフ端末 · 「店舗ごとに可能」と正確に</li>
+        <li>店舗で止められたらすぐ中断 · 言及だけで通り過ぎる</li>
         <li>アカウントタグ + ハッシュタグ5個</li>
         <li>商用サウンドの音源を使用したか</li>
         <li>アップロード期限の確認</li>

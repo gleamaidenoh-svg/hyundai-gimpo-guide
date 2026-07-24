@@ -171,6 +171,9 @@
   .how ol,.how ul{margin:0;padding-left:20px;}
   .how li{margin:5px 0;font-size:14px;color:#3C3C44;}
   .how li b{color:var(--ink);}
+  .how.cam{border-color:#F0B8BE;background:#FFF6F7;}
+  .how.cam h4{color:var(--shop);}
+  .limitbadge{display:inline-block;font-size:10.5px;font-weight:700;color:#fff;background:var(--shop);padding:1px 7px;border-radius:6px;margin-left:6px;white-space:nowrap;letter-spacing:.02em;}
 
   /* timeline (scenario flow) */
   .flow{--opt:var(--brand);margin-top:16px;}
@@ -410,7 +413,7 @@
     <div class="req">
       <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">교통수단 소개 <span style="font-weight:500;color:var(--muted);font-size:12.5px">· 셔틀 또는 택시 권장</span></div><div class="d"><b>①나이스택스프리 무료 셔틀</b> 또는 <b>②택시 이벤트(2만원 상품권)</b> 중 하나를 이용해 방문하고, 그 장면을 넣어주세요. 둘 다 짧게 소개해주면 더 좋아요. (아래 참고)</div></div></div>
       <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">H.Point 사용</div><div class="d">의류·잡화·명품·식당·카페 등 <b>대부분 매장에서 자유롭게 결제</b> 가능. 결제하는 장면을 넣어주세요. (일부 사용 불가 매장은 아래 참고)</div></div></div>
-      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">쇼핑 (매장·공간 방문)</div><div class="d">구매는 자유(강제 아님), 단 <b>총 3곳 이상 방문·소개</b> 필수 — <b>지정 브랜드 중 2곳 + 자유 1곳</b> (지정 브랜드는 아래 쇼핑집중형 표 참고). 가격·할인 정보도 함께!</div></div></div>
+      <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">쇼핑 (매장·공간 방문)</div><div class="d">구매는 자유(강제 아님), 단 <b>총 3곳 이상 방문·소개</b> 필수 — <b>지정 브랜드 중 2곳 + 자유 1곳</b> (지정 브랜드는 아래 쇼핑집중형 표 참고). 가격·할인 정보도 함께!<br><b style="color:var(--shop)">촬영이 어려운 매장은 다른 지정 브랜드로 바꾸거나, 매장 외관·언급으로 대신해도 괜찮아요.</b> (아래 📸 매장 촬영 안내 참고)</div></div></div>
       <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">식당·카페(F&amp;B) 이용</div><div class="d">1곳 이상 이용해 <b>'하루 즐기기'</b> 장면을 담아주세요. (3F 밀리스트 추천 — 서울 3대 베이글·한강뷰)</div></div></div>
       <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">세금환급(택스리펀)</div><div class="d"><b>1F 인포데스크 좌측 텍스리펀 셀프 기기</b>에서 진행하는 장면 또는 방법 소개를 넣어주세요. (아래 참고)</div></div></div>
       <div class="req-row"><span class="chip chip-must">필수</span><div><div class="t">짐 보관소 안내</div><div class="d">짐 맡기는 장면 또는 안내를 넣어주세요.</div></div></div>
@@ -421,6 +424,16 @@
     </div>
 
     <!-- how-to -->
+    <div class="how">
+      <div class="how cam">
+      <h4>📸 매장 촬영 안내 (꼭 읽어주세요)</h4>
+      <ul>
+        <li><b>직원분이 촬영을 제지하시면 바로 따라주세요.</b> 실랑이 없이 중단하면 됩니다.</li>
+        <li>촬영이 어려운 매장은 <b>"여기 ○○ 매장도 있어요" 정도로 언급만 하고 넘어가도 괜찮아요.</b> 필수 조건에 지장 없어요.</li>
+        <li><b>폴로 · 호카 · 버버리</b>는 매장 내 촬영이 어려울 가능성이 높아요. 그 외 명품 매장, <b>나이키 · 아디다스 · 올리브영</b>도 제한이 있을 수 있어요.</li>
+        <li>전용 카메라보다 <b>휴대폰으로</b> 편하게 찍어주세요. 공식 촬영처럼 보이면 오히려 협조받기 어려워요. <b>평소 브이로그처럼</b> 자연스럽게가 가장 좋아요!</li>
+      </ul>
+    </div>
     <div class="how">
       <h4>💳 H.Point 사용법</h4>
       <ul>
@@ -523,11 +536,11 @@
       <table class="tbl" style="margin:4px 0 14px;">
         <thead><tr><th>지정 브랜드</th><th>층</th><th>멘트·포인트 (자막 활용)</th></tr></thead>
         <tbody>
-          <tr><td class="accent">폴로 랄프로렌</td><td>WEST 1F</td><td>"폴로 재고, 여기가 제일 많대요!"</td></tr>
+          <tr><td class="accent">폴로 랄프로렌 <span class="limitbadge">촬영 제한 가능</span></td><td>WEST 1F</td><td>"폴로 재고, 여기가 제일 많대요!"</td></tr>
           <tr><td class="accent">뉴발란스</td><td>WEST 2F</td><td>"국내에서 제일 큰 규모의 매장이래요!"</td></tr>
           <tr><td class="accent">MLB</td><td>WEST 3F</td><td>"전 세계적으로 인기 많은 그 브랜드"</td></tr>
-          <tr><td class="accent">버버리</td><td>EAST 1F</td><td>"명품도 아울렛 가격으로"</td></tr>
-          <tr><td class="accent">호카</td><td>EAST 2F</td><td>"러닝화 인기 브랜드"</td></tr>
+          <tr><td class="accent">버버리 <span class="limitbadge">촬영 제한 가능</span></td><td>EAST 1F</td><td>"명품도 아울렛 가격으로"</td></tr>
+          <tr><td class="accent">호카 <span class="limitbadge">촬영 제한 가능</span></td><td>EAST 2F</td><td>"러닝화 인기 브랜드"</td></tr>
           <tr><td class="accent">노스페이스</td><td>타워존 3F</td><td>"한국 한정판(화이트라벨)이래요"</td></tr>
           <tr><td class="accent">아크테릭스</td><td>타워존 3F</td><td>"요즘 제일 핫한 브랜드"</td></tr>
         </tbody>
@@ -670,6 +683,7 @@
         <li>식사·카페(F&amp;B) 1곳 이상 포함</li>
         <li>무료 셔틀·택시 이벤트 짧게라도 소개</li>
         <li>세금환급은 1F 셀프 기기 · "매장별 가능"으로 정확히</li>
+        <li>매장에서 제지받으면 바로 중단 · 언급만 하고 넘어가기</li>
         <li>계정 태그 + 해시태그 5개</li>
         <li>상업적 사운드 음원 사용</li>
         <li>업로드 기한 체크</li>
